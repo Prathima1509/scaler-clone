@@ -587,17 +587,17 @@ body {
             }
           }
         }
-          button {
-            height: 40px;
-            width: 400px;
-            border: none;
-            color: white;
-            border-radius: 5px;
-            background-color: rgba(255, 0, 0, 0.644);
-          }
-          button:hover{
-            background-color: rgba(255, 0, 0, 0.543);
-          }
+        button {
+          height: 40px;
+          width: 400px;
+          border: none;
+          color: white;
+          border-radius: 5px;
+          background-color: rgba(255, 0, 0, 0.644);
+        }
+        button:hover {
+          background-color: rgba(255, 0, 0, 0.543);
+        }
       }
     }
   }
@@ -640,9 +640,6 @@ body {
           justify-content: center;
           align-items: start;
           gap: 7px;
-          #t6 {
-            font-size: ;
-          }
         }
       }
       button {
