@@ -279,6 +279,7 @@ body {
   align-items: center;
   position: absolute;
   top: 700px;
+  gap: 40px;
   #cards {
     display: flex;
     flex-direction: column;
@@ -460,7 +461,7 @@ body {
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      padding: 20px 0px;
+      padding: 20px 20px;
       gap: 20px;
       #p2 {
         display: flex;
@@ -484,52 +485,179 @@ body {
           }
         }
       }
-      #p6{
+      #p6 {
         /* border: 2px black solid;
         border-radius: 50%; */
-        input{
+        input {
           height: 40px;
           width: 50px;
         }
       }
     }
-    #part2{
+    #part2 {
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      background-color: lightblue;
-      #part3{
+      width: 95%;
+      gap: 150px;
+      padding: 70px 20px;
+      position: relative;
+      background-color: rgba(173, 216, 230, 0.267);
+      #part3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 20px;
+        /* padding: 20px 20px; */
+        #p7 {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: start;
+          gap: 50px;
+          border-radius: 5px;
+          padding: 10px 10px;
+          background-color: white;
+          width: 500px;
+          #p8 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            #p9 {
+              font-size: 15px;
+            }
+            #p10 {
+              font-size: 20px;
+            }
+          }
+          #p11 {
+            font-size: 15px;
+          }
+        }
+      }
+      #part0 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        #part4 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding: 50px 40px;
+          background-color: #387ef7;
+          overflow: scroll;
+          top: 0px;
+          #part5 {
+            height: 350px;
+            #m1 {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              border-radius: 5px;
+              gap: 10px;
+              width: 300px;
+              /* padding: 20px 20px; */
+              #m2 {
+                font-size: 15px;
+                border-bottom: 2px white solid;
+                width: 100%;
+                color: white;
+              }
+              #m3 {
+                font-size: 15px;
+                color: white;
+                b {
+                  font-size: 40px;
+                }
+              }
+              #m4 {
+                ul {
+                  li {
+                    color: white;
+                  }
+                }
+              }
+            }
+          }
+        }
+          button {
+            height: 40px;
+            width: 400px;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            background-color: rgba(255, 0, 0, 0.644);
+          }
+          button:hover{
+            background-color: rgba(255, 0, 0, 0.543);
+          }
+      }
+    }
+  }
+  #talk {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 25px;
+    background-color: rgba(0, 0, 128, 0.527);
+    #t0 {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: start;
+      padding: 20px 0px;
+      width: 100%;
       gap: 20px;
-      #p7{
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      gap: 50px;
-      border-radius: 5px;
-      border: 2px black solid;
-      padding: 10px 10px;
-      #p8{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: start;
-      #p9{
-        font-size: 15px;
+      #t1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        #t2 {
+          font-size: 40px;
+        }
+        #t3 {
+          font-size: 20px;
+        }
       }
-      #p10{
-        font-size: 20px;
+      #t4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        gap: 20px;
+        #t5 {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: start;
+          gap: 7px;
+          #t6 {
+            font-size: ;
+          }
+        }
       }
+      button {
+        height: 50px;
+        width: 200px;
+        border-radius: 5px;
+        background-color: rgba(255, 0, 0, 0.61);
+        border: none;
+        color: white;
       }
-      #p11{
-        font-size: 15px;
-      }
-      }
+    }
+    #talk2 {
+      .hide-in-mobile {
+        height: 100%;
+        width: 500px;
       }
     }
   }
